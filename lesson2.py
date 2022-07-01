@@ -1,3 +1,4 @@
+#Армия
 soldiers = int(input('Сколько соладат в шеренге: '))
 total_rules = int(input('Количество правил в военском уставе: '))
 push_ups = 0
