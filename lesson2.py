@@ -1,8 +1,7 @@
 #Армия
-soldiers = int(input('Сколько соладат в шеренге: '))
+soldiers = int(input('Сколько соладат: '))
 total_rules = int(input('Количество правил в военском уставе: '))
 push_ups = 0
-
 for soldier in range(soldiers - 4, 0, -4):
   print('Солдат под номером -', soldier)
   soldier_rules = int(input('Сколько правил в уставе? '))
