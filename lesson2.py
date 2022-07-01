@@ -8,4 +8,4 @@ for soldier in range(soldiers - 4, 0, -4):
   if total_rules != soldier_rules:
     print('Упал-отжался!', 10 * soldier, 'отжиманий!')
     push_ups += 10 * soldier
-print('Всего штрафных отжиманий -', push_ups)
+print('Всего отжиманий -', push_ups)
